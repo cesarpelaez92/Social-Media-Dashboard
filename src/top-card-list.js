@@ -1,5 +1,6 @@
 import React from 'react'
 import Card from './card'
+import './top-card-list.css'
 
 const cardListData = [
   {
@@ -8,6 +9,7 @@ const cardListData = [
     followers: 1596,
     todayFollower: 12,
     icon: 'images/icon-facebook.svg',
+    name: 'facebook',
   },
   {
     userName: '@CesarPelaez35',
@@ -15,6 +17,7 @@ const cardListData = [
     followers: '28k',
     todayFollower: 20,
     icon: 'images/icon-twitter.svg',
+    name: 'twitter',
   },
   {
     userName: '@CesarPelaez35',
@@ -22,6 +25,7 @@ const cardListData = [
     followers: '6k',
     todayFollower: 30,
     icon: 'images/icon-instagram.svg',
+    name: 'instagram',
   },
   {
     userName: '@CesarPelaez35',
@@ -29,6 +33,7 @@ const cardListData = [
     followers: '12k',
     todayFollower: -50,
     icon: 'images/icon-youtube.svg',
+    name: 'youtube',
   }
   
 ]

@@ -1,9 +1,11 @@
 import React from 'react'
 import './card.css'
 
-function Card({ userName, followers, todayFollowers, icon}){
-    return (
-        <article className="card facebook">
+function Card({ userName, followers, todayFollowers, icon, name}){
+  
+  const cardClass = `card ${name}`
+  return (
+        <article className={cardClass}>
           <p className="card-title">
             <img src={ icon } alt=""/>
              { userName }
